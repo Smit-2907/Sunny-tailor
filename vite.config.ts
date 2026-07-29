@@ -40,6 +40,9 @@ export default defineConfig({
     alias: {
       // Alias @ to the src directory
       '@': path.resolve(__dirname, './src'),
+      '@utils': path.resolve(__dirname, './utils'),
+      'utils': path.resolve(__dirname, './utils'),
+      '/utils': path.resolve(__dirname, './utils'),
     },
   },
   build: {

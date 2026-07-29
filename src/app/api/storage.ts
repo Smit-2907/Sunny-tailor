@@ -17,7 +17,7 @@
  */
 
 import { createClient } from "@supabase/supabase-js";
-import { projectId, publicAnonKey } from "/utils/supabase/info";
+import { projectId, publicAnonKey } from "../../../utils/supabase/info";
 
 // ─── Singleton Supabase client (anon key – respects RLS) ─────────────────────
 const supabase = createClient(
